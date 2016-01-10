@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CFE4786D-FA2A-44A8-8CDD-9C9F7F9DB5FE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Курсовая_работа.My.MyApplication</StartupObject>
+    <RootNamespace>Курсовая_работа</RootNamespace>
+    <AssemblyName>Курсовая работа</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Курсовая работа.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Курсовая работа.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo_h - копия.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConcatFrm.Designer.vb">
+      <DependentUpon>ConcatFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConcatFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContainsFrm.Designer.vb">
+      <DependentUpon>ContainsFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ContainsFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EqualsFrm.Designer.vb">
+      <DependentUpon>EqualsFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EqualsFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartFrm.Designer.vb">
+      <DependentUpon>StartFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StartFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Task11.Designer.vb">
+      <DependentUpon>Task11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Task11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IndexOfAnyFrm.Designer.vb">
+      <DependentUpon>IndexOfAnyFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IndexOfAnyFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertFrm.Designer.vb">
+      <DependentUpon>InsertFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InsertFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LCaseFrm.Designer.vb">
+      <DependentUpon>LCaseFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LCaseFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MidFrm.Designer.vb">
+      <DependentUpon>MidFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MidFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplitFrm.Designer.vb">
+      <DependentUpon>SplitFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplitFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartWithFrm.Designer.vb">
+      <DependentUpon>StartWithFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StartWithFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RevFrm.Designer.vb">
+      <DependentUpon>RevFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RevFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStringFrm.Designer.vb">
+      <DependentUpon>SubStringFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStringFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Task12.Designer.vb">
+      <DependentUpon>Task12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Task12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Task2Frm.Designer.vb">
+      <DependentUpon>Task2Frm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Task2Frm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrimFrm.Designer.vb">
+      <DependentUpon>TrimFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TrimFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InStrFrm.Designer.vb">
+      <DependentUpon>InStrFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InStrFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JoinFrm.Designer.vb">
+      <DependentUpon>JoinFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JoinFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReplaceFrm.Designer.vb">
+      <DependentUpon>ReplaceFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReplaceFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.vb">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeFrm.Designer.vb">
+      <DependentUpon>ChangeFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllocationFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllocationFrm.Designer.vb">
+      <DependentUpon>AllocationFrm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LeftFrm.Designer.vb">
+      <DependentUpon>LeftFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LeftFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveFrm.Designer.vb">
+      <DependentUpon>RemoveFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.vb">
+      <DependentUpon>Search.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Search.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Task1Frm.Designer.vb">
+      <DependentUpon>Task1Frm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Task1Frm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zadachi.Designer.vb">
+      <DependentUpon>Zadachi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Zadachi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ConcatFrm.resx">
+      <DependentUpon>ConcatFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContainsFrm.resx">
+      <DependentUpon>ContainsFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EqualsFrm.resx">
+      <DependentUpon>EqualsFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeFrm.resx">
+      <DependentUpon>ChangeFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartFrm.resx">
+      <DependentUpon>StartFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Task11.resx">
+      <DependentUpon>Task11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndexOfAnyFrm.resx">
+      <DependentUpon>IndexOfAnyFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertFrm.resx">
+      <DependentUpon>InsertFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LCaseFrm.resx">
+      <DependentUpon>LCaseFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MidFrm.resx">
+      <DependentUpon>MidFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RevFrm.resx">
+      <DependentUpon>RevFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplitFrm.resx">
+      <DependentUpon>SplitFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartWithFrm.resx">
+      <DependentUpon>StartWithFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStringFrm.resx">
+      <DependentUpon>SubStringFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Task12.resx">
+      <DependentUpon>Task12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Task2Frm.resx">
+      <DependentUpon>Task2Frm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrimFrm.resx">
+      <DependentUpon>TrimFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InStrFrm.resx">
+      <DependentUpon>InStrFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JoinFrm.resx">
+      <DependentUpon>JoinFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeftFrm.resx">
+      <DependentUpon>LeftFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllocationFrm.resx">
+      <DependentUpon>AllocationFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveFrm.resx">
+      <DependentUpon>RemoveFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReplaceFrm.resx">
+      <DependentUpon>ReplaceFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Task1Frm.resx">
+      <DependentUpon>Task1Frm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zadachi.resx">
+      <DependentUpon>Zadachi.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль Microsoft .NET Framework 4 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Установщик Windows 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo_h - копия.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

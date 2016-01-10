@@ -1,0 +1,5 @@
+.vs/
+course-work/bin/
+course-work/obj/
+*.suo
+*.v12.suo
